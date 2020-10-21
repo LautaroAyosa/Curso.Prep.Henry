@@ -1,0 +1,17 @@
+ > Defina los siguientes conceptos
+
+-Variables: Una variable es un elemento que puede adoptar diferentes valores. Supongamos que tenemos 
+una variable llamada "X": X puede ser = 1, = 50, = 'Hola' o cualquier cosa, siempre y cuando no
+la limitemos.
+
+-Strings: Los strings son una serie de caracteres entre dos apóstrofes. Estos caracteres pueden ser números,
+letras, simbolos, etc. Lo importante para que sea un STRING es que esté entre apóstrofes.
+
+-Funciones (Argumentos, return): Una funcion es una..... que en un momento tiene una sola respuesta.
+
+-Declaraciones (if):  Si (esto) es correcto, entonces pasa esto. Sino, pasa esto otro.
+
+-Valores Booleanos (true, false): Son valores binarios, o sea que, tienen solamente 2 posibles respuestas. 
+Por ejemplo, Verdadero o Falso, 0 o 1, Mojado o Seco. y logicamente solo se puede tener una respuesta a la vez,
+por ejemplo, 5 = 5 = Verdadero,  5 = 2 = Falso.
+
