@@ -16,16 +16,14 @@ function saludo(idioma) {
   // Si "idioma" es "ingles", devuelve "Hello!"
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
-  if (idioma = 'aleman') {
-    console.log('Guten Tag!');
-  } else if (idioma = 'mandarin') {
-    console.log('Ni Hao!');
-  } else if (idioma = 'ingles') {
-    console.log('Hello!');
-  } else if(null) {
-    Console.log('Hola!');
+  if (idioma === 'aleman') {
+    return 'Guten Tag!';
+  } else if (idioma === 'mandarin') {
+    return 'Ni Hao!';
+  } else if (idioma === 'ingles') {
+    return 'Hello!';
   } else {
-    return undefined
+    return 'Hola!';
   }
 }
 
@@ -33,10 +31,10 @@ function esDiezOCinco(numero) {
     // Devuelve "true" si "numero" es 10 o 5
     // De lo contrario, devuelve "false"
     // Tu código:
-    if (numero = 10){
+    if (numero == 10){
       return true
     }
-    else if(numero = 5){
+    else if(numero == 5){
       return true
     }
     else {
@@ -48,7 +46,7 @@ function estaEnRango(numero) {
   // Devuelve "true" si "numero" es menor que 50 y mayor que 20
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (50 > numero > 20) {
+  if (50 > numero && numero > 20) {
     return true
   }
   else {
@@ -76,13 +74,13 @@ function fizzBuzz(numero) {
   // Si "numero" es divisible entre 3 y 5 (ambos), devuelve "fizzbuzz"
   // De lo contrario, devuelve el numero
   if (numero % 3 == 0 && numero % 5 == 0){
-    console.log('fizzbuzz');
+    return 'fizzbuzz';
   }
   else if(numero % 5 == 0){
-    console.log('buzz');
+    return 'buzz';
   }
   else if(numero % 3 == 0){
-    console.log('fizz');
+    return 'fizz';
   }
   else{
     return numero
